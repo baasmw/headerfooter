@@ -65,4 +65,14 @@ function fca_hf_footer_output (){
 }
 add_action( 'wp_footer', 'fca_hf_footer_output' );
 
+function fca_hf_shortcode () {
+	return 'hello world';
+
+}
+add_shortcode( 'fca_hf', 'fca_hf_shortcode' );
+
+
+
+
+
 
